@@ -1,0 +1,196 @@
+/** {
+    /* margin: 0px;
+    padding: 0px; *
+
+}*/
+body {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+.wrap {
+    max-width: 1280px;
+    padding: 50px;
+}
+
+section {
+    overflow: auto;
+}
+
+h1, h2,h3,h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+header {
+    background-image: url(/images/conference-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    /* height: 500px; */
+    padding: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+header img {
+    width: 150px;
+    margin: 0 auto;
+    border: 5px solid white;
+    padding: 3px;
+    border-radius: 90%;
+}
+
+#expectations {
+    background: #bdd5ea;
+    border-bottom: 1px dashed #495867;
+}
+
+#features {
+    background-image: url(/images/swirl.png);
+}
+
+.feature {
+    min-height: 400px;
+}
+
+.feature img {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.img_feature {
+    width: 40%;
+    float: left;
+    border-radius: 90%;
+}
+
+.img_feature:hover {
+    border: 2px solid gray;
+    padding: 3px;
+}
+
+.txt_feature {
+    width: 60%;
+    float: left;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+#pricing {
+    background: #bdd5ea;
+    border-top: 1px dashed #495867;
+    border-bottom: 1px dashed #495867;
+}
+
+table, th, td {
+    border: 10px solid #bdd5ea;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    padding: 25px;
+    background-color: white;
+}
+
+th {
+    padding: 30px;
+}
+
+tr:nth-child(2)
+{
+    background-color: #577399;
+    color: white
+}
+
+.button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#day1, #day2 {
+    display: inline-block;
+    width: 450px;
+    background-image: url(/images/swirl.png);
+    border: 1px solid #e9e9e9;
+    box-shadow: 3px 3px #bdd5ea;
+  }
+
+.columns {
+    text-align: center;
+}
+
+section h4 {
+    text-align: center;
+}
+
+.speaker {
+    clear: both;
+    min-height: 200px;
+}
+
+.speaker img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.img_speaker {
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 90%;
+}
+
+#what_ru { 
+    background: #bdd5ea;
+    border-top: 1px dashed #495867;
+    text-align: center;
+   
+}
+
+#tickets {
+    text-align: center;
+}
+form {
+    border: 1px solid #e9e9e9;
+    background-image: url(/images/swirl.png);
+    margin: 0 auto 20px;
+    width: fit-content;
+    padding: 25px;
+}
+
+.form-content {
+    width: 300px;
+    display: block;
+    height: 35px;
+    text-align: left;
+
+}
+
+/* form p {
+    line-height: 3em;
+    width: 90%;
+} */
+
+form label {
+    visibility: hidden;
+}
+
+footer {
+    background-color: #495867;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
