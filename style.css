@@ -1,0 +1,74 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+      
+    padding: 150px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background: url("./images/bg-pattern-top.svg") no-repeat -50% 200%, 
+    url("./images/bg-pattern-bottom.svg") no-repeat 150% -200%, var(--dark-cyan);
+    overflow: hidden;
+
+}
+
+h1 {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h1 span {
+    color: var(--dark-gray);
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: var(--dark-gray);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tarjeta {
+    width: 355px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background: white url("./images/bg-pattern-card.svg") repeat-x;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.image {
+    /* margin-top: -50px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.social-info{
+    /* display: inline; */
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid var(--dark-gray);
+    padding: 10px 0;
+    letter-spacing: 1px;
+    /* width: 355px;
+    margin: o auto; */
+}
+
+.social-info h3 {
+    font-size: 18px;
+}
+
+.social-info h3 small {
+    margin-top: 8px;
+    display: block;
+    color: var(--dark-gray);
+    font-weight: 400;
+}
